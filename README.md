@@ -1,29 +1,47 @@
-# bitcoin-cost
+<p align="center">
+  <img width="300" height="auto" src="logo.png" />
+</p>
 
-## Project setup
-```
-npm install
-```
+## Sobre
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Consulta de Bitcoin em tempo utilizando VueJS, somente para estudos.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- ESLint
+- Prettier
+- Zeit/now
 
-### Run your tests
-```
-npm run test
+## Contributing
+
+### 01. Install dependencies
+
+```sh
+$ yarn
 ```
 
-### Lints and fixes files
-```
-npm run lint
+### 02. Create configs
+
+Create a `.env` file at the root of the project. Make sure you follow the [`.env.example`](.env.example) file as a guide.
+
+### 03. Run project
+
+```sh
+$ yarn test
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 04. Learn more in the Contributing guide
+
+Please take a look at the [contributing guide](.github/contributing.md).
+
+## Respect earns Respect 👏
+
+Please respect our [Code of Conduct](.github/code-of-conduct.md), in short:
+
+- Using welcoming and inclusive language
+- Being respectful of differing viewpoints and experiences
+- Gracefully accepting constructive criticism
+- Focusing on what is best for the community
+- Showing empathy towards other community members
+
+## License
+
+[MIT](license) © 2019 Bruno Pulis

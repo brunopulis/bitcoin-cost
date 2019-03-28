@@ -1,28 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Bitcoin/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Bitcoin from "./components/Bitcoin";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    HelloWorld
+    Bitcoin
   }
-}
+};
 </script>
 
 <style>
+body {
+  background: #7e8d85;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  align-items: center;
+  display: flex;
+  font-family: "Open Sans";
+  justify-content: center;
+  line-height: 1.4;
   margin-top: 60px;
+  text-align: center;
 }
 </style>
