@@ -8,6 +8,7 @@
     "now-build": "npm run build"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "vue": "^2.6.6"
   },
   "devDependencies": {
